@@ -2966,13 +2966,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Moroccan nationals appear on the UK Visitor visa-national list and generally need entry clearance before travelling as Standard Visitors, subject to the official exceptions. For a stay of up to 6 months, the Standard Visitor visa costs GBP 135 and must be applied for online before travel. A decision usually takes 3 weeks after identity and supporting documents are supplied, but longer processing is possible. Applicants must be able to demonstrate funds to support themselves and any dependants, or funding from someone else, and enough for the return or onward journey. The exact visitor-visa conditions must not be applied to work, marriage, long-term study or other visa categories.",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        },
+        "processingDays": "Usually 3 weeks after application, identity verification and supporting documents; not guaranteed"
       },
       "documents": {
         "passport": {
@@ -2981,7 +2985,7 @@
         },
         "requirements": {
           "onwardTicket": false,
-          "proofOfFunds": false,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -3001,7 +3005,37 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:27.636539"
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "pageSection": "Visa fees; How long it takes to get a decision",
+        "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees / How long it takes to get a decision",
+        "exactQuote": "Standard Visitor visa | £135 | 6 months",
+        "confidence": "verified",
+        "notes": "Verifies only visitor-visa fee, usual decision time, visa-national status of Morocco, and funds eligibility. The legacy fields for additional passport validity months, blank passport pages, transit, accommodation, evisa availability and yellow-fever remain unchanged and unverified by these sources.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "VN 1.1(a); visa-national list; Morocco",
+            "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Morocco",
+            "exactQuote": "Morocco",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://www.gov.uk/standard-visitor",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Check you meet the eligibility requirements",
+            "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Overview > Check you meet the eligibility requirements",
+            "exactQuote": "you’re able to support yourself and your dependants during your trip",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
