@@ -1441,8 +1441,11 @@
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Visa required for Nigeria citizens. Apply at the Canada embassy/consulate or authorized visa center."
+        "notes": "Nigerian citizens are on Canada's visa-required list and generally need a valid passport and visitor visa to visit Canada. IRCC publishes a starting visitor-visa application fee of CAD 100, with possible biometrics charges. Processing times vary by country and application, so no fixed decision time is promised. A visa officer decides whether a visa is single-entry or multiple-entry; neither is guaranteed. Check eligibility, apply and provide any required biometrics through the official IRCC visitor-visa process, rather than treating embassy submission as the universal application route.",
+        "cost": {
+          "amount": 100,
+          "currency": "CAD"
+        }
       },
       "documents": {
         "passport": {
@@ -1471,7 +1474,37 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "pageSection": "Fees; Processing times",
+        "verificationPath": "Canada.ca > Immigration and citizenship > Visitor visa (temporary resident visa) > Fees / Processing times",
+        "exactQuote": "Starting from: $CAN 100",
+        "confidence": "verified",
+        "notes": "Verifies visitor-visa base fee and variable processing time only. Other passport validity, blank page, funds, yellow fever, transit, work/study and miscellaneous requirements in this legacy route have NOT been reverified.",
+        "supportingSources": [
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Travellers who need a visa; Visa-required countries or territories",
+            "verificationPath": "Canada.ca > What you need to enter Canada > Travellers who need a visa > Nigeria",
+            "exactQuote": "Nigeria",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Who needs a visitor visa; Most travellers need a visitor visa",
+            "verificationPath": "Canada.ca > Visitor visa > Who needs a visitor visa > Most travellers need a visitor visa",
+            "exactQuote": "A visa officer has discretion to issue you a single-entry visa or multiple entry visa",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
