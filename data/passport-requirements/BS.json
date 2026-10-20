@@ -4239,14 +4239,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "The Bahamas passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days. Other entry, document, and transit requirements are not reverified here."
       },
       "documents": {
         "passport": {
@@ -4272,10 +4272,19 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "unverified",
-        "lastChecked": null,
+        "lastChecked": "2026-10-20",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:16:10.970249"
+      "lastUpdated": "2026-10-20T10:22:00Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA (2025 rules) > item 4 > 90-day exemption list > The Bahamas",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nThe Bahamas",
+        "confidence": "verified",
+        "notes": "Verification is limited to the Kenya eTA exemption classification and 90-day limit for The Bahamas; unrelated document/transit fields were not reverified."
+      }
     },
     {
       "to": {
