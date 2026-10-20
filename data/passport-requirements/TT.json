@@ -4297,14 +4297,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Trinidad and Tobago passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days. Other entry, document, and transit requirements are not reverified here."
       },
       "documents": {
         "passport": {
@@ -4329,11 +4329,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-20",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:16:09.181391"
+      "lastUpdated": "2026-10-20T11:15:31Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA (2025 rules) > item 4 > 90-day exemption list > Trinidad and Tobago",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nTrinidad and Tobago",
+        "confidence": "verified",
+        "notes": "Verification limited to Kenya eTA 90-day exemption for Trinidad and Tobago; unrelated document/transit fields not reverified. AI-assisted verification disclosed in PR."
+      }
     },
     {
       "to": {
