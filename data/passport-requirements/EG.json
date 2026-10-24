@@ -9051,13 +9051,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "B-2 visitor visa (or combined B-1/B-2 for eligible visits)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "The U.S. Department of State's Egypt nonimmigrant reciprocity schedule lists B-1/B-2 visas with no separate reciprocity issuance fee, multiple entries and maximum validity of 60 months. The USD 185 MRV application-processing fee for B visitors is separate and is generally non-refundable. Ordinary Egypt tourism travelers require B-2 or B-1/B-2 visitor visas except where a specific exemption applies. Visa validity does not determine how long an admitted traveler may stay; U.S. border authorities decide admission. This check does not verify interview wait times, document rules, ESTA exceptions or transit.",
+        "cost": {
+          "amount": 185,
+          "currency": "USD"
+        }
       },
       "documents": {
         "passport": {
@@ -9086,7 +9090,34 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:09:44.889264"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Egypt.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "Egypt reciprocity schedule — B-1/B-2: no issuance fee, Multiple, 60 Months",
+        "verificationPath": "Travel.State.Gov > U.S. Visas > Visa Reciprocity and Civil Documents by Country > Egypt > B-1/B-2",
+        "exactQuote": "B-1/B-2 | None | Multiple | 60 Months",
+        "confidence": "verified",
+        "notes": "Limited to U.S. B-1/B-2 visa entry count, maximum validity, and application fee; does not independently recheck existing document, transit, risk or processing-time fields.",
+        "supportingSources": [
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Non-petition-based nonimmigrant visa application processing fee, including B visas",
+            "exactQuote": "$185.00",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Visitor visas — B-2 / B-1/B-2",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
