@@ -9051,13 +9051,18 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "B-2 visitor visa (or combined B-1/B-2 for eligible visits)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "For Tunisian passport holders, the U.S. Department of State does not list Tunisia among Visa Waiver Program countries, so ordinary tourism normally requires a B-2 or B-1/B-2 visitor visa unless another specific exemption applies. The government publishes a USD 185 non-refundable MRV application-processing fee for non-petition-based B visas. The Tunisia B-1/B-2 reciprocity schedule separately lists no visa-issuance reciprocity fee, multiple entries, and maximum visa validity of 120 months. Visa validity is NOT the same as permitted length of stay in the United States; admission period is determined by U.S. border authorities. This verification does not substantiate processing time, interview availability, passport-document requirements or transit.",
+        "cost": {
+          "amount": 185,
+          "currency": "USD",
+          "notes": "Non-refundable MRV application fee for B visitor visas only; Tunisia B-1/B-2 reciprocity issuance fee is listed as None. Additional optional service fees not included."
+        }
       },
       "documents": {
         "passport": {
@@ -9086,7 +9091,41 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:28.55943"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Tunisia.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "Tunisia — Reciprocity Schedule; B-2 / B-1/B-2 row: None, Multiple, 120 Months",
+        "verificationPath": "Travel.State.Gov > U.S. Visas > Visa Reciprocity and Civil Documents by Country > Tunisia > B-1/B-2",
+        "confidence": "verified",
+        "notes": "Scope: Tunisian visitor-visa entries and validity, $185 MRV processing fee, and visa-waiver non-membership. Visa validity and authorized length of stay are distinct. Other legacy fields untouched.",
+        "supportingSources": [
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Non-petition-based nonimmigrant visa (except E): $185, including B category",
+            "exactQuote": "$185.00",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Must Be a Citizen or National of a VWP Designated Country",
+            "confidence": "verified",
+            "notes": "Tunisia is absent from the current official VWP participating-country list."
+          },
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Tourism and Visit — B-2 or combined B-1/B-2 visa",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
