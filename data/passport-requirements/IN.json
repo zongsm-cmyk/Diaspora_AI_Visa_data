@@ -9042,13 +9042,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "B-2 visitor visa (or combined B-1/B-2)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "U.S. State Department India B-1/B-2 reciprocity: no issuance reciprocity fee, multiple entries, and maximum visa validity of 120 months. The ordinary B-visa application-processing fee is USD 185 (non-refundable) and separate from the issuance fee. Visa validity does not determine how long the traveler may stay in the United States; CBP determines the authorized stay. Existing transit, document, and risk fields are not independently reverified.",
+        "cost": {
+          "amount": 185,
+          "currency": "USD"
+        }
       },
       "documents": {
         "passport": {
@@ -9077,7 +9081,34 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:04:00.347846"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/India.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "India Reciprocity Schedule > B-1/B-2",
+        "verificationPath": "travel.state.gov > Visa Reciprocity and Civil Documents by Country > India > B-1/B-2",
+        "exactQuote": "B-1/B-2 | None | Multiple | 120 Months",
+        "confidence": "verified",
+        "notes": "Source verifies B-1/B-2 entries, visa-validity period, and issuance-fee status; $185 processing fee is separately documented. Other legacy attributes were preserved without new claims.",
+        "supportingSources": [
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Non-petition-based nonimmigrant visa application processing fee (B visitor visa)",
+            "exactQuote": "$185.00",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Tourism and Visit > B-2 and B-1/B-2 categories",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
